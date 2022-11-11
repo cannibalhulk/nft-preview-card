@@ -29,7 +29,7 @@ main{
 
 .card:hover{
     scale: 1.06;
-    
+
 }
 
 .card img{
@@ -121,5 +121,20 @@ main{
 /* Creator ends */
 
 @media screen and (min-width:375px) and (max-width:1440px){
+    main{
+        font-size: 14px;
+    }
 
+    .card{
+        width: 250px;
+    }
+
+    .ctr-img-div{
+        width:30px;
+        height: 30px;
+    }
+
+    .ctr-img-div img{
+        width: 93%;
+    }
 }
