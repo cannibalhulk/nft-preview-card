@@ -39,7 +39,8 @@ main{
 
 /* Additional begins */
 
-.additional h3{
+.additional h1{
+    font-size: 20px;
     margin-top:25px;
     color:hsl(0, 0%, 100%);
 }
