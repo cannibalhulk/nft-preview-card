@@ -132,6 +132,18 @@ main{
         width: 250px;
     }
 
+    .additional>h1{
+        font-size: 18px;
+    }
+
+    .additional>p{
+        font-size: 15px;
+    }
+
+    .price p, .date p{
+        font-size: 15px;
+    }
+
     .ctr-img-div{
         width:30px;
         height: 30px;
@@ -139,5 +151,9 @@ main{
 
     .ctr-img-div img{
         width: 93%;
+    }
+
+    .creator p{
+        font-size: 1em;
     }
 }
