@@ -27,11 +27,6 @@ main{
     transition: 0.4s ease-out;
 }
 
-.card:hover{
-    scale: 1.06;
-
-}
-
 .card img{
     width: 100%;
     border-radius: 8px;
@@ -43,6 +38,10 @@ main{
     font-size: 20px;
     margin-top:25px;
     color:hsl(0, 0%, 100%);
+}
+
+.additional h1:hover{
+    color:hsl(178, 100%, 50%)
 }
 
 .additional>p{
@@ -109,6 +108,10 @@ main{
     color: hsl(0, 0%, 100%);
 }
 
+.creator p span:hover{
+    color:hsl(178, 100%, 50%)
+}
+
 .ctr-img-div{
     width:40px;
     height: 40px;
@@ -141,7 +144,7 @@ main{
     }
 
     .price p, .date p{
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .ctr-img-div{
